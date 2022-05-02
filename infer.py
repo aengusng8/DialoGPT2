@@ -10,7 +10,7 @@ import time
 import argparse
 
 parser = argparse.ArgumentParser(description='')
-parser.add_argument('--model_name_or_path', type=str)
+parser.add_argument('--model_name_or_path', type=str, default="NlpHUST/gpt-neo-vi-small")
 parser.add_argument('--checkpoint_path', type=str)
 parser.add_argument('--owner', type=str)
 args = parser.parse_args()
